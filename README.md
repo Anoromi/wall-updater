@@ -1,7 +1,7 @@
 ## Wall-updater
 
 Bing wallpaper for GNOME.
-This is a cli/daemon that allows you to periodically fetch the Bing daily image and set it as the GNOME desktop (and screensaver) wallpaper.
+This is a cli/daemon that allows you to periodically fetch the [Bing daily image](https://bing.gifposter.com/) and set it as the GNOME desktop (and screensaver) wallpaper.
 
 ### Requirements
 - **GNOME** desktop environment
