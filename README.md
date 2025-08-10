@@ -25,10 +25,7 @@ wall-updater autostart
 ### Behavior
 - Polls Bing API hourly for a new image.
 - Downloads the latest image and writes it to `current_wallpaper.jpg` in the state directory.
-- Sets GNOME wallpaper using `gsettings` for:
-  - `org.gnome.desktop.background picture-uri`
-  - `org.gnome.desktop.background picture-uri-dark`
-  - `org.gnome.desktop.screensaver picture-uri`
+- Sets GNOME wallpaper and screensaver to the new wallpaper image:
 
 ### Autostart
 `wall-updater autostart` creates `~/.config/autostart/wall-updater-daemon.desktop` pointing to the built `wall-updater-daemon` binary. It is scoped to GNOME.
